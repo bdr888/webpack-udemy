@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -74,6 +74,16 @@
 
 
 __webpack_require__(2);
+
+var _big = __webpack_require__(3);
+
+var _big2 = _interopRequireDefault(_big);
+
+var _small = __webpack_require__(4);
+
+var _small2 = _interopRequireDefault(_small);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var image = document.createElement('img');
 image.src = 'http://lorempixel.com/400/400';
@@ -104,6 +114,18 @@ exports.default = sum;
 
 /***/ },
 /* 3 */
+/***/ function(module, exports) {
+
+throw new Error("Module build failed: Error: spawn /Users/brian.ridge/mystuff/js_modules/node_modules/mozjpeg/vendor/cjpeg ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:201:19)\n    at onErrorNT (internal/child_process.js:379:16)\n    at process._tickCallback (internal/process/next_tick.js:178:19)");
+
+/***/ },
+/* 4 */
+/***/ function(module, exports) {
+
+throw new Error("Module build failed: Error: spawn /Users/brian.ridge/mystuff/js_modules/node_modules/mozjpeg/vendor/cjpeg ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:201:19)\n    at onErrorNT (internal/child_process.js:379:16)\n    at process._tickCallback (internal/process/next_tick.js:178:19)");
+
+/***/ },
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
